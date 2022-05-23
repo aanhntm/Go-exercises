@@ -15,8 +15,9 @@ func Sqrt(x float64) float64 {
 			return(temp)
 		}
 	}
+	return(temp)
 }
 
 func main() {
-	fmt.Println(Sqrt(72))
+	fmt.Println(Sqrt(16))
 }
