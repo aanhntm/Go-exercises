@@ -37,7 +37,7 @@ func postOrders(context *gin.Context) {
 
 func main() {
 	router := gin.Default()
-	router.GET("/todos", getOders)
-	router.POST("/todos", postOrders)
+	router.GET("/orders", getOders)
+	router.POST("/orders", postOrders)
 	router.Run("localhost:9090")
 }
